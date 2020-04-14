@@ -1,0 +1,16 @@
+Form1 = 78, 78, 960, 498, , 52, 52, 934, 472, C
+MainMod = 78, 78, 1136, 389, Z
+SubClassingMod = 130, 130, 1012, 550, 
+GridCls = 156, 156, 1038, 576, 
+StorageMod = 130, 130, 1012, 550, 
+ParticleMod = 156, 156, 1038, 576, 
+ParticleBag = 26, 26, 908, 446, 
+PlayerCls = 208, 208, 1090, 628, 
+EntityCls = 0, 0, 849, 420, 
+EntityBag = 130, 130, 1155, 441, 
+MarkerBag = 52, 52, 905, 472, 
+DirectSound8Mod = 78, 78, 931, 498, 
+EventsMod = 130, 130, 983, 550, 
+FunctionsMod = 104, 104, 957, 524, 
+Draw = 52, 52, 905, 472, 
+GDIBuffer = 130, 130, 983, 550, 

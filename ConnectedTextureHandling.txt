@@ -1,0 +1,20 @@
+0 Close Neighbours: 1
+	1 Possibility
+1 Close Neighbours: 4
+	4 Possibilities
+	Z = Rotation + 1
+2 Close Neighbours: 4
+	(I Shape):
+		2 Possibilities (-,|)
+	(L Shape):
+		8 Possibilities (W/Corner,No/Corner); 4 Rotations
+		Z = HasCorner * 4 + Rotation
+3 Close Neighbours: 16
+	4 Rotations + 2 Corners = 4*2^2 = 16
+	If Rotation = 0 Then
+	Z = Rotation * 4 + Corner1 + Corner2 * 2
+	ElseIf Rotation = 1 Then
+	Z = Rotation * 4 + Corner2 + Corner3 * 2
+	End If
+4 Close Neighbours: 16
+	16 Possibilities
